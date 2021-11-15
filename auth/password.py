@@ -5,7 +5,7 @@ import streamlit as st
 
 from auth.session import SessionState
 
-ENV_DASHBOARD_PASSWORD = "DASHBOARD_PASSWORD"
+ENV_DASHBOARD_PASSWORD = "1234"
 
 
 def is_authenticated(pwd: str) -> bool:
